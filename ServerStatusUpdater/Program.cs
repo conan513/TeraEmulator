@@ -10,7 +10,7 @@ using Informer.Structures;
 
 // ReSharper disable FunctionNeverReturns
 // ReSharper disable LocalizableElement
-
+// This most likely wont work without the ajax script
 namespace ServerStatusUpdater
 {
     static class Program
@@ -21,7 +21,7 @@ namespace ServerStatusUpdater
 
         public const int InformerPort = 23232;
 
-        public const string AjaxQueryFormat = "http://on-tera.ru/ajax/update_ss?server=test&status={0}";
+        public const string AjaxQueryFormat = "http://127.0.0.1/ajax/update_ss?server=test&status={0}";
 
         public static InformerClient Client = null;
 
