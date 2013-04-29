@@ -48,14 +48,9 @@ namespace Tera
 
             AppDomain.CurrentDomain.UnhandledException += UnhandledException;
 
-            Console.WriteLine("----===== Cerium Unity GameServer =====----\n\n"
-                              + "Copyright (C) 2011 Cerium Unity\n\n"
-                              + "This program is CLOSE SOURCE project.\n"
-                              + "You DON'T have any right's, if you are NOT autor\n"
-                              + "or authorized representative of him.\n"
-                              + "Using that program without any right's is ILLEGAL\n\n"
-                              + "Authors: Alehandr, MetaWind\n"
-                              + "Authorized representative: on-tera.com\n\n"
+            Console.WriteLine("----===== GameServer =====----\n\n"
+                              + "Starting game server\n\n"
+                              + "Loading data files.\n"
                               + "-------------------------------------------");
 
             TcpServer = new TcpServer("*", 11101, 1000);
