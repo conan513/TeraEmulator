@@ -1,0 +1,6 @@
+J:\_Tera\Tera\Utils\bin\Release\Utils.dll
+J:\_Tera\Tera\Utils\bin\Release\Utils.pdb
+J:\_Tera\Tera\Utils\bin\Release\NLog.dll
+J:\_Tera\Tera\Utils\bin\Release\NLog.pdb
+J:\_Tera\Tera\Utils\obj\Release\Utils.dll
+J:\_Tera\Tera\Utils\obj\Release\Utils.pdb

@@ -1,0 +1,11 @@
+J:\_Tera\Tera\Data\bin\Release\Data.dll
+J:\_Tera\Tera\Data\bin\Release\Data.pdb
+J:\_Tera\Tera\Data\bin\Release\protobuf-net.dll
+J:\_Tera\Tera\Data\bin\Release\Utils.dll
+J:\_Tera\Tera\Data\bin\Release\NLog.dll
+J:\_Tera\Tera\Data\bin\Release\Utils.pdb
+J:\_Tera\Tera\Data\bin\Release\protobuf-net.pdb
+J:\_Tera\Tera\Data\bin\Release\NLog.pdb
+J:\_Tera\Tera\Data\obj\Release\Data.csprojResolveAssemblyReference.cache
+J:\_Tera\Tera\Data\obj\Release\Data.dll
+J:\_Tera\Tera\Data\obj\Release\Data.pdb

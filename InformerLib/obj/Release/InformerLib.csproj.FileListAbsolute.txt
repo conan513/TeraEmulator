@@ -1,0 +1,16 @@
+J:\_Tera\Tera\InformerLib\bin\Release\InformerLib.dll
+J:\_Tera\Tera\InformerLib\bin\Release\InformerLib.pdb
+J:\_Tera\Tera\InformerLib\bin\Release\Communication.dll
+J:\_Tera\Tera\InformerLib\bin\Release\Data.dll
+J:\_Tera\Tera\InformerLib\bin\Release\Scs.dll
+J:\_Tera\Tera\InformerLib\bin\Release\Utils.dll
+J:\_Tera\Tera\InformerLib\bin\Release\protobuf-net.dll
+J:\_Tera\Tera\InformerLib\bin\Release\NLog.dll
+J:\_Tera\Tera\InformerLib\bin\Release\Communication.pdb
+J:\_Tera\Tera\InformerLib\bin\Release\Data.pdb
+J:\_Tera\Tera\InformerLib\bin\Release\Utils.pdb
+J:\_Tera\Tera\InformerLib\bin\Release\protobuf-net.pdb
+J:\_Tera\Tera\InformerLib\bin\Release\NLog.pdb
+J:\_Tera\Tera\InformerLib\obj\Release\InformerLib.csprojResolveAssemblyReference.cache
+J:\_Tera\Tera\InformerLib\obj\Release\InformerLib.dll
+J:\_Tera\Tera\InformerLib\obj\Release\InformerLib.pdb

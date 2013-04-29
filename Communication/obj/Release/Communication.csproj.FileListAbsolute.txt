@@ -1,0 +1,14 @@
+J:\_Tera\Tera\Communication\bin\Release\Communication.dll
+J:\_Tera\Tera\Communication\bin\Release\Communication.pdb
+J:\_Tera\Tera\Communication\bin\Release\Data.dll
+J:\_Tera\Tera\Communication\bin\Release\Scs.dll
+J:\_Tera\Tera\Communication\bin\Release\Utils.dll
+J:\_Tera\Tera\Communication\bin\Release\protobuf-net.dll
+J:\_Tera\Tera\Communication\bin\Release\NLog.dll
+J:\_Tera\Tera\Communication\bin\Release\Data.pdb
+J:\_Tera\Tera\Communication\bin\Release\Utils.pdb
+J:\_Tera\Tera\Communication\bin\Release\protobuf-net.pdb
+J:\_Tera\Tera\Communication\bin\Release\NLog.pdb
+J:\_Tera\Tera\Communication\obj\Release\Communication.csprojResolveAssemblyReference.cache
+J:\_Tera\Tera\Communication\obj\Release\Communication.dll
+J:\_Tera\Tera\Communication\obj\Release\Communication.pdb
