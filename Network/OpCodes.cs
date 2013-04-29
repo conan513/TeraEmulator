@@ -20,42 +20,62 @@ namespace Network
             #region Client packets
 
             // ReSharper disable RedundantCast
+		    // Auth
             Recv.Add(unchecked((short) 0x4DBC), typeof (RpCheckVersion)); //all revs
             Recv.Add(unchecked((short) 0xC644), typeof (RpAuth)); //1725 EU
             Recv.Add(unchecked((short) 0x6CE4), typeof (RpSystemInfo)); //1725 EU
+			
+			// Create character
             Recv.Add(unchecked((short) 0x8844), typeof (RpCheckName)); //1725 EU
             Recv.Add(unchecked((short) 0x7B3D), typeof (RpCheckNameForUse)); //1725 EU
             Recv.Add(unchecked((short) 0xE5E4), typeof (RpGetPlayerList)); //1725 EU
             Recv.Add(unchecked((short) 0x6755), typeof (RpCreateCharacter)); //1725 EU
+			
+			// Enter World
             Recv.Add(unchecked((short) 0x8D6A), typeof (RpPlay)); //1725 EU
             Recv.Add(unchecked((short) 0xB61D), typeof (RpGetBindPoint)); //1725 EU
             Recv.Add(unchecked((short) 0xBCC4), typeof (RpEnterWorld)); //1725 EU
+			
+			// Chat
             Recv.Add(unchecked((short) 0xFBE6), typeof (RpChatMessage)); //1725 EU
             Recv.Add(unchecked((short) 0xE932), typeof (RpChatInfo)); //1725 EU
+			Recv.Add(unchecked((short) 0xA8FA), typeof (RpChatPrivate)); //1725 EU
+            Recv.Add(unchecked((short) 0xAF9D), typeof (RpChatBlock)); //1603 EU
+			
+			// Inactive
             Recv.Add(unchecked((short) 0xFA08), typeof (RpMove)); //1725 EU
             Recv.Add(unchecked((short) 0x837D), typeof (RpInactive)); //1725 EU
-            Recv.Add(unchecked((short) 0xADF4), typeof (RpRelog)); //1725 EU
-            Recv.Add(unchecked((short) 0x99EB), typeof (RpAbortRelog)); //1725 EU
-            Recv.Add(unchecked((short) 0xF19F), typeof (RpExit)); //1725 EU
-            Recv.Add(unchecked((short) 0x878D), typeof (RpDialogShow)); //1725 EU
-            Recv.Add(unchecked((short) 0x4EE4), typeof (RpItemPickUp)); //1725 EU
+			
+			// Inventory
             Recv.Add(unchecked((short) 0xBD08), typeof (RpGetInventory)); //1725 EU
             Recv.Add(unchecked((short) 0xA02D), typeof (RpInventoryRemoveItem)); //1725 EU
             Recv.Add(unchecked((short) 0xFEAD), typeof (RpInventoryReplaceItem)); //1725 EU
             Recv.Add(unchecked((short) 0x63D8), typeof (RpInventoryDressItem)); //1725 EU
             Recv.Add(unchecked((short) 0xB77E), typeof (RpInventoryUndressItem)); //1725 EU
             Recv.Add(unchecked((short) 0xC4BA), typeof (RpStorageSort)); //1725 EU
+			
+			// Dialog
             Recv.Add(unchecked((short) 0xBED7), typeof (RpDialogSelect)); //1725 EU
             Recv.Add(unchecked((short) 0xBC40), typeof (RpDeleteCharacter)); //1725 EU
             Recv.Add(unchecked((short) 0xA7B1), typeof (RpGetItemInfo)); //1725 EU
             Recv.Add(unchecked((short) 0xB14B), typeof (RpGetSimpleItemInfo)); //1725 EU
+			Recv.Add(unchecked((short) 0xADF4), typeof (RpRelog)); //1725 EU
+            Recv.Add(unchecked((short) 0x99EB), typeof (RpAbortRelog)); //1725 EU
+            Recv.Add(unchecked((short) 0xF19F), typeof (RpExit)); //1725 EU
+            Recv.Add(unchecked((short) 0x878D), typeof (RpDialogShow)); //1725 EU
+            Recv.Add(unchecked((short) 0x4EE4), typeof (RpItemPickUp)); //1725 EU
+			
+			// FriendList
+			
             Recv.Add(unchecked((short) 0xC5C6), typeof (RpGetFriendList)); //1603 EU
             Recv.Add(unchecked((short) 0xE020), typeof (RpMoveToBind)); //1603 EU
             //Recv.Add(unchecked((short) 0xE806), typeof (RpGetCharacterEquipment)); //1513
             Recv.Add(unchecked((short) 0xC233), typeof (RpCharacterSettings1)); //1725 EU
             Recv.Add(unchecked((short) 0xA7A5), typeof (RpQuestTopSwitch)); //1603 EU
-            Recv.Add(unchecked((short)0xFC7C), typeof(RpQuestRefuse)); //1603 EU
-            Recv.Add(unchecked((short)0xAF84), typeof(RpTeleportCharacter)); //1725 EU
+            Recv.Add(unchecked((short) 0xFC7C), typeof(RpQuestRefuse)); //1603 EU
+            Recv.Add(unchecked((short) 0xAF84), typeof(RpTeleportCharacter)); //1725 EU
+			
+			// Trade And Sell
             Recv.Add(unchecked((short) 0xED71), typeof (RpAddToTrade)); // 1725 EU
             Recv.Add(unchecked((short) 0x7DD5), typeof (RpAddToExtract)); // 1725 EU
             Recv.Add(unchecked((short) 0xB73C), typeof (RpSellItem)); //1725 EU
@@ -70,8 +90,6 @@ namespace Network
             //Recv.Add(unchecked((short) 0x6A09), typeof (RpInviteUnk)); //1606
             Recv.Add(unchecked((short) 0xB2AA), typeof (RpDialogCancelRelog)); //1603 EU
             Recv.Add(unchecked((short) 0x819B), typeof (RpCharacterEmotion)); //1725 EU
-            Recv.Add(unchecked((short) 0xA8FA), typeof (RpChatPrivate)); //1725 EU
-            Recv.Add(unchecked((short) 0xAF9D), typeof (RpChatBlock)); //1603 EU
             Recv.Add(unchecked((short) 0x8875), typeof (RpGatherStart)); //1725 EU
             Recv.Add(unchecked((short) 0xB351), typeof (RpFriendAdd)); //1603 EU
             Recv.Add(unchecked((short) 0xD500), typeof (RpFriendRemove)); //1603 EU
@@ -80,9 +98,9 @@ namespace Network
             Recv.Add(unchecked((short) 0x86E2), typeof (RpUnstuck)); //1725 EU
 
             //Inspect
-            Recv.Add(unchecked((short)0xC036), typeof(RpCharacterInspect)); //1725 EU
-            Recv.Add(unchecked((short)0x7A8D), typeof(RpGetInspectUid)); //1725 EU
-            Recv.Add(unchecked((short)0x91D7), typeof(RpInspectUnk)); //1725 EU
+            Recv.Add(unchecked((short) 0xC036), typeof(RpCharacterInspect)); //1725 EU
+            Recv.Add(unchecked((short) 0x7A8D), typeof(RpGetInspectUid)); //1725 EU
+            Recv.Add(unchecked((short) 0x91D7), typeof(RpInspectUnk)); //1725 EU
 
             //Climb
             Recv.Add(unchecked((short) 0xE364), typeof (RpClimb)); //1725 EU
@@ -100,39 +118,39 @@ namespace Network
             Recv.Add(unchecked((short) 0x77BB), typeof (RpReleaseAttack)); //1725 EU
 
             //Party
-            Recv.Add(unchecked((short)0x86BD), typeof(RpPartyLeave)); //1725 EU
+            Recv.Add(unchecked((short) 0x86BD), typeof (RpPartyLeave)); //1725 EU
             Recv.Add(unchecked((short) 0x4F34), typeof (RpPartyDisband)); //1603 EU
-            Recv.Add(unchecked((short)0xF86C), typeof(RpPartyRemoveMember)); //1725 EU
-            Recv.Add(unchecked((short)0x82AE), typeof(RpPartyVote)); //1603 EU
-            Recv.Add(unchecked((short)0xBA24), typeof(RpPartyPromoteMember)); //1725 EU
+            Recv.Add(unchecked((short) 0xF86C), typeof (RpPartyRemoveMember)); //1725 EU
+            Recv.Add(unchecked((short) 0x82AE), typeof (RpPartyVote)); //1603 EU
+            Recv.Add(unchecked((short) 0xBA24), typeof (RpPartyPromoteMember)); //1725 EU
 
             //Guilds
-            Recv.Add(unchecked((short)0x8781), typeof(RpGetServerGuilds)); //1603 EU
+            Recv.Add(unchecked((short) 0x8781), typeof (RpGetServerGuilds)); //1603 EU
             Recv.Add(unchecked((short) 0xDB99), typeof (RpRequestInviteProcess)); //1725 EU
             //Recv.Add(unchecked((short) 0xA7A6), typeof (RpGuildAddMemberRequest)); //1606
             Recv.Add(unchecked((short) 0xEFE0), typeof (RpGuildGetMemberList)); //1725 EU
             //Recv.Add(unchecked((short) 0x6A2B), typeof (RpGuildInvite)); //1606
             Recv.Add(unchecked((short) 0xFF67), typeof (RpGuildGetHistory)); //1725 EU
             Recv.Add(unchecked((short) 0xDD03), typeof (RpGuildRemoveMember)); //1725 EU
-            Recv.Add(unchecked((short)0x7029), typeof(RpGuildChangeRankPrivileges)); //1725 EU
-            Recv.Add(unchecked((short)0x8A75), typeof(RpGuildRankAdd)); //1725 EU
-            Recv.Add(unchecked((short)0x901F), typeof(RpGuildChangeMemberRank)); //1725 EU
-            Recv.Add(unchecked((short)0xAEA2), typeof(RpGuildChangeLeader)); //1725 EU
-            Recv.Add(unchecked((short)0x968D), typeof(RpGuildMemberLeave)); //1725 EU
-            Recv.Add(unchecked((short)0x9DE5), typeof(RpServerGuildsPage)); //1725 EU
-            Recv.Add(unchecked((short)0xF494), typeof(RpGuildChangeAd)); //1725 EU
-            Recv.Add(unchecked((short)0x9D87), typeof(RpGuildChangeMotd)); //1725 EU
-            Recv.Add(unchecked((short)0xBFC1), typeof(RpGuildChangeTitle)); //1725 EU
-            Recv.Add(unchecked((short)0xD23D), typeof(RpGuildPraise)); //1725 EU
-            Recv.Add(unchecked((short)0xF22B), typeof(RpGuildMemberGuildPraise)); //1725 EU
+            Recv.Add(unchecked((short) 0x7029), typeof (RpGuildChangeRankPrivileges)); //1725 EU
+            Recv.Add(unchecked((short) 0x8A75), typeof (RpGuildRankAdd)); //1725 EU
+            Recv.Add(unchecked((short) 0x901F), typeof (RpGuildChangeMemberRank)); //1725 EU
+            Recv.Add(unchecked((short) 0xAEA2), typeof (RpGuildChangeLeader)); //1725 EU
+            Recv.Add(unchecked((short) 0x968D), typeof (RpGuildMemberLeave)); //1725 EU
+            Recv.Add(unchecked((short) 0x9DE5), typeof (RpServerGuildsPage)); //1725 EU
+            Recv.Add(unchecked((short) 0xF494), typeof (RpGuildChangeAd)); //1725 EU
+            Recv.Add(unchecked((short) 0x9D87), typeof (RpGuildChangeMotd)); //1725 EU
+            Recv.Add(unchecked((short) 0xBFC1), typeof (RpGuildChangeTitle)); //1725 EU
+            Recv.Add(unchecked((short) 0xD23D), typeof (RpGuildPraise)); //1725 EU
+            Recv.Add(unchecked((short) 0xF22B), typeof (RpGuildMemberGuildPraise)); //1725 EU
 
 
             //Trade player vs player
             Recv.Add(unchecked((short) 0x6EDF), typeof (RpPlayerTradeAdd)); //1725 EU
-            Recv.Add(unchecked((short)0x6AAE), typeof(RpPlayerTradeRemoveItem)); //1725 EU
-            Recv.Add(unchecked((short)0x79BA), typeof(RpPlayerTradeLock)); //1725 EU
+            Recv.Add(unchecked((short) 0x6AAE), typeof (RpPlayerTradeRemoveItem)); //1725 EU
+            Recv.Add(unchecked((short) 0x79BA), typeof (RpPlayerTradeLock)); //1725 EU
             Recv.Add(unchecked((short) 0xD457), typeof (RpTradeInterupt)); //1603 EU
-            Recv.Add(unchecked((short)0xE3C1), typeof(RpPlayerTradeCancel)); //1725 EU
+            Recv.Add(unchecked((short) 0xE3C1), typeof (RpPlayerTradeCancel)); //1725 EU
 
             //Craft-Extract
             Recv.Add(unchecked((short) 0xC1E3), typeof (RpCraftStart)); //1725 EU
@@ -144,16 +162,16 @@ namespace Network
             Recv.Add(unchecked((short) 0xD03F), typeof (RpZoneSwitchContinent)); //1725 EU
 
             //Warehouse
-            Recv.Add(unchecked((short)0xE0D4), typeof(RpWarehouseAddItem)); //1725 EU
-            Recv.Add(unchecked((short)0xD7B5), typeof(RpWarehouseAddItemToInventory)); //1725 EU
-            Recv.Add(unchecked((short)0xF085), typeof(RpWarehouseChangeSection)); //1725 EU
-            Recv.Add(unchecked((short)0xCCEC), typeof(RpWarehouseReplaceItem)); //1725 EU
+            Recv.Add(unchecked((short) 0xE0D4), typeof (RpWarehouseAddItem)); //1725 EU
+            Recv.Add(unchecked((short) 0xD7B5), typeof (RpWarehouseAddItemToInventory)); //1725 EU
+            Recv.Add(unchecked((short) 0xF085), typeof (RpWarehouseChangeSection)); //1725 EU
+            Recv.Add(unchecked((short) 0xCCEC), typeof (RpWarehouseReplaceItem)); //1725 EU
 
             //mount
-            Recv.Add(unchecked((short)0x4F59), typeof(RpMountUnkQuestion)); //1725 EU
+            Recv.Add(unchecked((short) 0x4F59), typeof (RpMountUnkQuestion)); //1725 EU
 
             //User interface
-            Recv.Add(unchecked((short)0x7D1B), typeof(RpUISettings));
+            Recv.Add(unchecked((short) 0x7D1B), typeof (RpUISettings));
 
             #endregion
 
@@ -242,7 +260,7 @@ namespace Network
             Send.Add(typeof (SpDirectionChange), unchecked((short) 0x996F)); //1725 EU
             Send.Add(typeof (SpCampfire), unchecked((short) 0xB0BE)); //1725 EU
             Send.Add(typeof (SpRemoveCampfire), unchecked((short) 0xCB92)); //1725 EU
-            Send.Add(typeof(SpRemoveHpBar), unchecked((short)0xD7EE)); //1725 EU
+            Send.Add(typeof (SpRemoveHpBar), unchecked((short)0xD7EE)); //1725 EU
 
             Send.Add(typeof (SpDuelCounter), unchecked((short) 0xC93C)); //1725 EU
 
@@ -268,12 +286,12 @@ namespace Network
             //Mounts
             Send.Add(typeof (SpMountShow), unchecked((short) 0x888D)); //1725 EU
             Send.Add(typeof (SpMountHide), unchecked((short) 0x888C)); //1725 EU
-            Send.Add(typeof(SpMountUnkResponse), unchecked((short)0xC82A)); //1725 EU
+            Send.Add(typeof (SpMountUnkResponse), unchecked((short)0xC82A)); //1725 EU
 
             // Inspect
-            Send.Add(typeof(SpCharacterInspect), unchecked((short)0xE153)); //1725 EU
-            Send.Add(typeof(SpInspectUid), unchecked((short)0x59A9)); //1725 EU
-            Send.Add(typeof(SpInspectUnk), unchecked((short)0x77C3)); //1725 EU
+            Send.Add(typeof (SpCharacterInspect), unchecked((short)0xE153)); //1725 EU
+            Send.Add(typeof (SpInspectUid), unchecked((short)0x59A9)); //1725 EU
+            Send.Add(typeof (SpInspectUnk), unchecked((short)0x77C3)); //1725 EU
 
             //Quests
             Send.Add(typeof (SpQuest), unchecked((short) 0xE80F)); //1725 EU
@@ -283,15 +301,15 @@ namespace Network
 
             //Party
             Send.Add(typeof (SpPartyList), unchecked((short) 0xBD9C)); //1725 EU
-            Send.Add(typeof(SpPartyRemoveMember), unchecked((short)0xE230)); //1725 EU
+            Send.Add(typeof (SpPartyRemoveMember), unchecked((short)0xE230)); //1725 EU
             Send.Add(typeof (SpPartyStats), unchecked((short) 0xA908)); //1725 EU
-            Send.Add(typeof(SpPartyLeave), unchecked((short)0xC5A1)); //1725 EU
+            Send.Add(typeof (SpPartyLeave), unchecked((short)0xC5A1)); //1725 EU
             Send.Add(typeof (SpPartyVote), unchecked((short) 0xF5B5)); //1603 EU
-            Send.Add(typeof(SpPartyAbnormals), unchecked((short)0xD7EB)); //1725 EU
-            Send.Add(typeof(SpPartyMemberPosition), unchecked((short)0xACC1)); //1725 EU
+            Send.Add(typeof (SpPartyAbnormals), unchecked((short)0xD7EB)); //1725 EU
+            Send.Add(typeof (SpPartyMemberPosition), unchecked((short)0xACC1)); //1725 EU
 
             //Guilds
-            Send.Add(typeof(SpServerGuilds), unchecked((short)0x6B0A)); //1725 EU
+            Send.Add(typeof (SpServerGuilds), unchecked((short) 0x6B0A)); //1725 EU
             Send.Add(typeof (SpRequestInvite), unchecked((short) 0x7EA4)); //1725 EU
             Send.Add(typeof (SpGuildMemberList), unchecked((short) 0x90E0)); //1725 EU
             Send.Add(typeof (SpGuildRanking), unchecked((short) 0x80BC)); //1725 EU
@@ -312,8 +330,8 @@ namespace Network
 
             //Trade
             Send.Add(typeof (SpTradeWindow), unchecked((short) 0xDD9A)); //1725 EU
-            Send.Add(typeof(SpPlayerTradeHistory), unchecked((short)0xDF5C)); //1725 EU
-            Send.Add(typeof(SpTradeHideWindow), unchecked((short)0x8895)); //1725 EU
+            Send.Add(typeof (SpPlayerTradeHistory), unchecked((short)0xDF5C)); //1725 EU
+            Send.Add(typeof (SpTradeHideWindow), unchecked((short)0x8895)); //1725 EU
 
             //Craft/Extract
             Send.Add(typeof (SpCraftUpdateWindow), unchecked((short) 0xE876)); //1725 EU
