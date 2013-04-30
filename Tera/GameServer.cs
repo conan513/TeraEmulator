@@ -29,7 +29,7 @@ namespace Tera
             }
             catch (Exception ex)
             {
-                Log.FatalException("Can't start server!", ex);
+                Log.FatalException("Can't start server!!", ex);
                 return;
             }
 
