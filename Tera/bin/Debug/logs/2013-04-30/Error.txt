@@ -313,3 +313,129 @@ System.NullReferenceException: Object reference not set to an instance of an obj
    at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
    at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
    at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+17:40:11.6383 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+17:52:23.1759 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:52:27.5238 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:52:30.4617 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:53:41.2819 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:53:50.9564 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:53:56.6772 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:58:18.3948 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:58:22.7497 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:58:32.3242 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:58:36.5900 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:58:40.3245 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+17:58:58.3065 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+18:06:40.3470 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+18:21:28.4212 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 313
+19:26:48.3200 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player)
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0()
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+19:34:17.0458 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player)
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0()
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+19:37:19.5936 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player)
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0()
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54

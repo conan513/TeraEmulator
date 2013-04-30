@@ -42,18 +42,18 @@ namespace Tera.AdminEngine.AdminCommands
                                                                  });
                         break;
 
-                    case "IslandOfDawn":
+                    case "islandofdawn":
                         Global.TeleportService.ForceTeleport(player,
                                                              new WorldPosition
                                                                  {
                                                                      Heading = 32750,
                                                                      MapId = 13,
-                                                                     X = 93490,
-                                                                     Y = -88219,
-                                                                     Z = -4524
+                                                                     X = float.Parse("93490"),
+                                                                     Y = float.Parse("-88219"),
+                                                                     Z = float.Parse("-4524")
                                                                  });
                         break;
-                    case "Velika":
+                    case "velika":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -64,7 +64,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 1743
                             });
                         break;
-                    case "Castanica":
+                    case "castanica":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -75,7 +75,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 1892
                             });
                         break;
-                    case "Popolion":
+                    case "popolion":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -86,7 +86,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 2872
                             });
                         break;
-                    case "PoraElinu":
+                    case "poraelinu":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -97,7 +97,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 2037
                             });
                         break;
-                    case "Lumbertown":
+                    case "lumbertown":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -108,7 +108,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 714
                             });
                         break;
-                    case "Allemantheia":
+                    case "allemantheia":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -119,7 +119,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 6701
                             });
                         break;
-                    case "Cresentia":
+                    case "cresentia":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -130,7 +130,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 3327
                             });
                         break;
-                    case "Tulufan":
+                    case "tulufan":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -141,7 +141,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 2476
                             });
                         break;
-                    case "CutThroatHarbor":
+                    case "cutthroatharbor":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -152,7 +152,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 105
                             });
                         break;
-                    case "Chebika":
+                    case "chebika":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -163,7 +163,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 276
                             });
                         break;
-                    case "Kaiator":
+                    case "kaiator":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -174,7 +174,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 4219
                             });
                         break;
-                    case "ZulifarFortress":
+                    case "zulifarfortress":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -185,7 +185,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 1289
                             });
                         break;
-                    case "Habere":
+                    case "habere":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -196,7 +196,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 5556
                             });
                         break;
-                    case "Kanastria":
+                    case "kanastria":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -207,7 +207,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 2860
                             });
                         break;
-                    case "PathfinderPost":
+                    case "pathfinderpost":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -218,7 +218,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 134
                             });
                         break;
-                    case "ScytheraFae":
+                    case "scytherafae":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -229,7 +229,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 2166
                             });
                         break;
-                    case "Dragonfall":
+                    case "dragonfall":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -240,7 +240,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 4536
                             });
                         break;
-                    case "Tria":
+                    case "tria":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -251,7 +251,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 4355
                             });
                         break;
-                    case "Tralion":
+                    case "tralion":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -262,7 +262,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 3074
                             });
                         break;
-                    case "Elenea":
+                    case "elenea":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -276,7 +276,7 @@ namespace Tera.AdminEngine.AdminCommands
                     case "all":
                         //Global.PlayerService.TeleportPlayer(PlayerService.GetPlayerByName(options[1]), player.Position);
                         break;
-                    case "Frontera":
+                    case "frontera":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -287,7 +287,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 104
                             });
                         break;
-                    case "Acarum":
+                    case "acarum":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {
@@ -298,7 +298,7 @@ namespace Tera.AdminEngine.AdminCommands
                                 Z = 2518
                             });
                         break;
-                    case "Bleakrock":
+                    case "bleakrock":
                         Global.TeleportService.ForceTeleport(player,
                             new WorldPosition
                             {

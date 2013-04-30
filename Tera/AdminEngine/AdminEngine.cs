@@ -29,6 +29,7 @@ namespace Tera.AdminEngine
             AdminCommands.Add("quest", new Quest());
             AdminCommands.Add("craft", new Craft());
             AdminCommands.Add("goto", new GoTo());
+            AdminCommands.Add("jumpto", new JumpTo());
             AdminCommands.Add("npc", new NpcCommand());
             AdminCommands.Add("camp", new CampfireInfo());
             AdminCommands.Add("mount", new Mount());

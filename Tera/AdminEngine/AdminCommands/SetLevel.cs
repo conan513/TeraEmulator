@@ -9,7 +9,7 @@ namespace Tera.AdminEngine.AdminCommands
         {
             try
             {
-                int level = int.Parse(msg);
+                int level = int.Parse(msg) - 1;
                 Global.PlayerService.SetExp(connection.Player, Data.Data.PlayerExperience[level], null);
             }
             // ReSharper disable EmptyGeneralCatchClause
