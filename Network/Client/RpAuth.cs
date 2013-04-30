@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Security.Cryptography;
 
 namespace Network.Client
 {
@@ -15,12 +16,28 @@ namespace Network.Client
 			ReadB(5); //unk3
 			ReadD(); //unk4
 			AccountName = ReadS(); //AccountName
-			Session = Encoding.ASCII.GetString(ReadB(length));
+
+            Session = "0x" + GenerateMD5(AccountName) + (AccountName.Length + 1);
         }
 
         public override void Process()
         {
             Communication.Logic.AccountLogic.TryAuthorize(Connection, AccountName, Session);
+        }
+
+        public string GenerateMD5(string input)
+        {
+            MD5 md5 = MD5.Create();
+            byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
+            byte[] hash = md5.ComputeHash(inputBytes);
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < hash.Length; i++)
+            {
+                sb.Append(hash[i].ToString("X2"));
+            }
+
+            return sb.ToString();
         }
     }
 }

@@ -26,3 +26,17 @@ C:\Users\formatme\Documents\GitHub\TeraEmulator\Communication\bin\Debug\NLog.pdb
 C:\Users\formatme\Documents\GitHub\TeraEmulator\Communication\obj\Debug\Communication.csprojResolveAssemblyReference.cache
 C:\Users\formatme\Documents\GitHub\TeraEmulator\Communication\obj\Debug\Communication.dll
 C:\Users\formatme\Documents\GitHub\TeraEmulator\Communication\obj\Debug\Communication.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Communication.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Communication.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Data.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Scs.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Utils.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\protobuf-net.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\NLog.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Data.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\Utils.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\protobuf-net.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\bin\Debug\NLog.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\obj\Debug\Communication.csprojResolveAssemblyReference.cache
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\obj\Debug\Communication.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\obj\Debug\Communication.pdb

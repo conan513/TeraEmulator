@@ -30,6 +30,11 @@ namespace Tera.AdminEngine.AdminCommands
                     case "controller":
                         result = "Controller = " + player.Controller;
                         break;
+                    case "showpos": // Show Complete Positioning
+                        result = "Position Identifier: \n X= " + connection.Player.Position.X + ";\n Y= " +
+                            connection.Player.Position.Y + ";\nZ= " + connection.Player.Position.Z + ";\nMapID= " +
+                            connection.Player.Position.MapId + ";\nHeading= " + connection.Player.Position.Heading;
+                        break;
                 }
                 new SpChatMessage(connection.Player, result, ChatType.Notice).Send(connection);
             }

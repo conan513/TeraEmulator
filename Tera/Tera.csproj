@@ -66,6 +66,7 @@
     <Compile Include="ActionEngine\PartyAction.cs" />
     <Compile Include="ActionEngine\RequestAction.cs" />
     <Compile Include="ActionEngine\TradeAction.cs" />
+    <Compile Include="AdminEngine\AdminCommands\AddGold.cs" />
     <Compile Include="AdminEngine\AdminCommands\AddItem.cs" />
     <Compile Include="AdminEngine\AdminCommands\AddSkill.cs" />
     <Compile Include="AdminEngine\AdminCommands\CampfireInfo.cs" />

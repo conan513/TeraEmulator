@@ -9,3 +9,14 @@ J:\_Tera\Tera\Data\bin\Debug\NLog.pdb
 J:\_Tera\Tera\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 J:\_Tera\Tera\Data\obj\Debug\Data.dll
 J:\_Tera\Tera\Data\obj\Debug\Data.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\Data.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\Data.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\protobuf-net.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\Utils.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\NLog.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\Utils.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\protobuf-net.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\bin\Debug\NLog.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\obj\Debug\Data.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Data\obj\Debug\Data.pdb

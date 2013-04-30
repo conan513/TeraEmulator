@@ -4,3 +4,10 @@ J:\_Tera\Tera\Utils\bin\Debug\NLog.dll
 J:\_Tera\Tera\Utils\bin\Debug\NLog.pdb
 J:\_Tera\Tera\Utils\obj\Debug\Utils.dll
 J:\_Tera\Tera\Utils\obj\Debug\Utils.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\bin\Debug\Utils.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\bin\Debug\Utils.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\bin\Debug\NLog.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\bin\Debug\NLog.pdb
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\obj\Debug\Utils.dll
+C:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\obj\Debug\Utils.pdb
