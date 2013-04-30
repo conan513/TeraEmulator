@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-J:\_Tera\Tera\Informer\obj\Debug\
+C:\Users\formatme\Documents\GitHub\TeraEmulator\Informer\obj\Debug\
 Informer
 none
 false
 DEBUG;TRACE
-J:\_Tera\Tera\Informer\App.xaml
+C:\Users\formatme\Documents\GitHub\TeraEmulator\Informer\App.xaml
 2-1766280802
 
 11-2062004436
-121629086692
+12471237563
 MainWindow.xaml;PacketViewer.xaml;
 
 False

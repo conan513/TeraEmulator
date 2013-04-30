@@ -38,11 +38,16 @@
     <OutputPath>bin\x64\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Scs">
       <HintPath>..\Libs\Scs.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ARecvPacket.cs" />
@@ -159,6 +164,9 @@
     <Compile Include="Client\RpZoneSwitchContinent.cs" />
     <Compile Include="Client\RpZoneUnk.cs" />
     <Compile Include="Connection.cs" />
+    <Compile Include="DatabaseConfig.cs" />
+    <Compile Include="Database\AccountMySql.cs" />
+    <Compile Include="Database\DbConnector.cs" />
     <Compile Include="Messages\GameMessage.cs" />
     <Compile Include="Messages\KeyMessage.cs" />
     <Compile Include="OpCodes.cs" />
