@@ -1,0 +1,903 @@
+13:57:09.1035 | Data: Cache file not found!
+13:57:09.1125 | Data: guilds_cache file not found!
+14:00:04.6112 | Data: Cache file not found!
+14:00:04.6112 | Data: guilds_cache file not found!
+14:12:59.5873 | Data: Cache file not found!
+14:12:59.5943 | Data: guilds_cache file not found!
+14:15:03.5750 | Data: Cache file not found!
+14:15:03.5820 | Data: guilds_cache file not found!
+14:38:21.0734 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:50.1663 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:51.1700 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:52.1837 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:53.1834 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:54.1880 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:55.1967 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:56.1984 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:57.2050 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:58.3268 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:38:59.3295 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:39:00.3351 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:39:01.3508 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:39:02.3575 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:41:17.0899 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0899 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0899 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0949 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0949 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0949 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0949 | QStepMovePc: Warning, current player section is NULL!
+14:41:17.0949 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1276 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1276 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1276 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1466 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1466 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1466 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1466 | QStepMovePc: Warning, current player section is NULL!
+14:41:18.1466 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.1919 | QStepMovePc: Warning, current player section is NULL!
+14:41:20.2039 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:21.2206 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9518 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:41:49.9538 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.4949 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.4949 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.4949 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.4949 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.5019 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.5019 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.5019 | QStepMovePc: Warning, current player section is NULL!
+14:42:39.5019 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1474 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1474 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1474 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1474 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1474 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1574 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1574 | QStepMovePc: Warning, current player section is NULL!
+14:43:01.1574 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8196 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8196 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8196 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8196 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8196 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8286 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8286 | QStepMovePc: Warning, current player section is NULL!
+14:43:17.8286 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0220 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0220 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0220 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0220 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0220 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0220 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0320 | QStepMovePc: Warning, current player section is NULL!
+14:44:03.0320 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3256 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3256 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3296 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3296 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3296 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3296 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3296 | QStepMovePc: Warning, current player section is NULL!
+14:44:44.3296 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:10.0661 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2776 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2776 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2776 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2826 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2826 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2826 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2826 | QStepMovePc: Warning, current player section is NULL!
+14:45:52.2826 | QStepMovePc: Warning, current player section is NULL!
+14:55:17.4352 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+14:55:18.4358 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:08:04.8564 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:08:05.8582 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:49:39.5739 | ARecvPacket
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.Controllers.DialogController.Progress(Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Controllers\DialogController.cs:line 255
+   at Tera.Services.PlayerService.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\PlayerService.cs:line 149
+   at Communication.Logic.PlayerLogic.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 163
+   at Network.Client.RpDialogSelect.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpDialogSelect.cs:line 18
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:49:42.2087 | ARecvPacket
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.Controllers.DialogController.Progress(Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Controllers\DialogController.cs:line 255
+   at Tera.Services.PlayerService.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\PlayerService.cs:line 149
+   at Communication.Logic.PlayerLogic.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 163
+   at Network.Client.RpDialogSelect.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpDialogSelect.cs:line 18
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:49:50.1400 | ARecvPacket
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.Controllers.DialogController.Progress(Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Controllers\DialogController.cs:line 255
+   at Tera.Services.PlayerService.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\PlayerService.cs:line 149
+   at Communication.Logic.PlayerLogic.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 163
+   at Network.Client.RpDialogSelect.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpDialogSelect.cs:line 18
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:51:42.6469 | ARecvPacket
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.Controllers.DialogController.Progress(Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Controllers\DialogController.cs:line 255
+   at Tera.Services.PlayerService.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\PlayerService.cs:line 149
+   at Communication.Logic.PlayerLogic.ProgressDialog(Player player, Int32 selectedIndex, Int32 dialogUid) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 163
+   at Network.Client.RpDialogSelect.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpDialogSelect.cs:line 18
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:40.0331 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:41.0378 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:42.0474 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:43.0402 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:44.0449 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:45.0505 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:46.0692 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:47.0709 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:48.0746 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:49.0773 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:50.0910 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:51.0966 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:52.0963 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:53.1030 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:54.1106 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:55.1243 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+15:57:56.1420 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:43.2428 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:44.2435 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:45.2572 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:46.3009 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:47.3146 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:48.3353 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:49.3269 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:50.3296 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:51.5894 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:52.5951 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:53.6148 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:54.6355 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:01:55.6451 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:03:36.0682 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0682 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0682 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0682 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0682 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0792 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0792 | QStepMovePc: Warning, current player section is NULL!
+16:03:36.0792 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:03:54.7346 | QStepMovePc: Warning, current player section is NULL!
+16:07:17.0422 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:18.0529 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:19.0596 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:20.0763 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:21.0860 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:22.2998 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:23.3085 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:24.3116 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:25.3222 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:26.3409 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:07:27.3516 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:11:14.6810 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:19:41.0505 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:19:42.0694 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:23:24.0948 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:23:25.1247 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:49.9892 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:51.0060 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:52.0166 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:53.0346 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:54.0493 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:55.0590 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:56.0657 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:57.0749 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:58.0755 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:27:59.0762 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:00.0809 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:01.0926 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:02.1073 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:03.1169 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:04.1619 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:05.1696 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:06.1713 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:07.1799 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25
+16:28:08.1806 | ARecvPacket
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Tera.Services.TeleportService.ForceTeleport(Player player, WorldPosition position) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 30
+   at Tera.Services.TeleportService.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\TeleportService.cs:line 43
+   at Communication.Logic.PlayerLogic.SwitchContinent(Player player, Int32 continentId) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 226
+   at Network.Client.RpZoneSwitchContinent.Process() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\Client\RpZoneSwitchContinent.cs:line 21
+   at Network.ARecvPacket.Process(Connection connection) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Network\ARecvPacket.cs:line 25

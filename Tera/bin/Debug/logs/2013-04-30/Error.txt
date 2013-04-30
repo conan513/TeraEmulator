@@ -1,0 +1,315 @@
+14:06:09.8660 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+14:25:11.8962 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:43:54.4113 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:43:57.7325 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:44:02.9130 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:44:07.2068 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:44:10.7752 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:44:17.5157 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:44:30.1231 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+14:44:32.8600 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:01:03.7265 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:10.9363 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:15.6545 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:19.7792 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:22.7383 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:42.1803 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:43.7223 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:45.2733 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:46.5872 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:47.9471 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:49.4281 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:01:51.2713 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:06.6866 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:08.4438 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:09.6256 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:10.9345 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:12.1023 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:13.2981 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:15.4315 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:17.1376 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:18.7207 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:20.5729 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:22.4852 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:24.6997 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:26.5679 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:29.9322 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:31.6503 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:35.1667 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:38.4639 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:02:41.2187 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:03:21.7578 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:03:23.1357 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:03:46.7935 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:03:49.5784 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:03:59.8632 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:05:25.8646 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:05:34.2903 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:05:51.0775 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:05:53.3039 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:19:21.2031 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:20:28.1781 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 61
+15:24:31.2855 | AdminEngine: Speed:
+EXCEPTION OCCURRED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Tera.AdminEngine.AdminCommands.GoTo.Process(IConnection connection, String msg) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\AdminEngine\AdminCommands\GoTo.cs:line 60
+15:49:59.5035 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+16:30:12.2374 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+16:50:22.3485 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\PlayerLogic.cs:line 49
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Communication\Logic\AccountLogic.cs:line 34
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
