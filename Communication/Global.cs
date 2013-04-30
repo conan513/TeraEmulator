@@ -118,7 +118,7 @@ namespace Communication
                     FeedbackService.Action();
                     AccountService.Action();
                     PlayerService.Action();
-                    //MapService.Action();
+                    MapService.Action();//safe to uncommect? 
                     ChatService.Action();
                     VisibleService.Action();
                     ControllerService.Action();
