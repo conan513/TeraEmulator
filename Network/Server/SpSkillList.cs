@@ -27,11 +27,8 @@ namespace Network.Server
                 WriteD(writer, skill);
 
                 WriteC(writer,
-                       (byte)
-                       (!global::Data.Data.UserSkills[Player.TemplateId].ContainsKey(skill) ||
-                        global::Data.Data.UserSkills[Player.TemplateId][skill].IsActive
-                            ? 1
-                            : 0));
+                        (byte)
+						(!global::Data.Data.UserSkills[Player.TemplateId].ContainsKey(skill) || global::Data.Data.UserSkills[Player.TemplateId][skill].IsActive ? 1 : 0));
             }
             //B089 0700 0800 0800 1100 74270000 01 1100 1A00 C4EA0000 01 1A00 2300 C4A28900 01 2300 2C00 12270000002C003500644B00000035003E00654B0000003E000000664B000000
         }

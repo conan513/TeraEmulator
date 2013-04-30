@@ -95,8 +95,8 @@ namespace Tera.AdminEngine
 
         public bool IsGM(Player player)
         {
-            return player.AccountName.ToLower() == "metawind" || player.AccountName.ToLower() == "alehandr" ||
-                    player.AccountName.ToLower() == "yksirius" || player.AccountName.ToLower() == "metalrus";
+            return player.AccountName.ToLower() == "" || player.AccountName.ToLower() == "" || // add your account name/names here
+                    player.AccountName.ToLower() == "" || player.AccountName.ToLower() == "";
         }
 
         public void Action()

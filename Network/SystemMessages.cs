@@ -388,9 +388,7 @@ namespace Network
 
         /* MORE??? */
 
-        public static SpSystemMessage
-            GuildNamesMustBeASingleStringOfCharactersBetween3And15InLengthAndMustBeDifferentFromAnyExistingGuildName =
-                new SpSystemMessage(new[] {"@209"});
+        public static SpSystemMessage GuildNamesMustBeASingleStringOfCharactersBetween3And15InLengthAndMustBeDifferentFromAnyExistingGuildName = new SpSystemMessage(new[] {"@209"});
 
         /* MORE??? */
 
@@ -430,8 +428,7 @@ namespace Network
 
         public static SpSystemMessage GuildmasterRankCantBeChanged = new SpSystemMessage(new[] {"@280"});
 
-        public static SpSystemMessage EnterARankNameBetweenMinLengthAndMaxLengthLettersLong(string minLength,
-                                                                                            string maxLength)
+        public static SpSystemMessage EnterARankNameBetweenMinLengthAndMaxLengthLettersLong(string minLength,string maxLength)
         {
             return new SpSystemMessage(new[] {"@281", "MinLength", minLength, "MaxLength", maxLength});
         }
@@ -468,9 +465,7 @@ namespace Network
                 new SpSystemMessage(new[] {"@290", "Acceptor", acceptor, "Acceptee", acceptee, "GuildName", guildName});
         }
 
-        public static SpSystemMessage AcceptorRejectedTheApplicationFromAccepteeToJoinGuild(string acceptor,
-                                                                                            string acceptee,
-                                                                                            string guildName)
+        public static SpSystemMessage AcceptorRejectedTheApplicationFromAccepteeToJoinGuild(string acceptor,string acceptee,string guildName)
         {
             return
                 new SpSystemMessage(new[] {"@291", "Acceptor", acceptor, "Acceptee", acceptee, "GuildName", guildName});

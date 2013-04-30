@@ -1,4 +1,6 @@
-﻿using Data.Interfaces;
+﻿using Data.Enums;
+using Data.Interfaces;
+using Network.Server;
 
 namespace Tera.AdminEngine.AdminCommands
 {
@@ -7,6 +9,7 @@ namespace Tera.AdminEngine.AdminCommands
         public override void Process(IConnection connection, string msg)
         {
             Communication.Global.StatsService.UpdateStats(connection.Player);
+			new SpSystemNotice("Welcome to our Server enjoy!").Send(connection);
 
             
             //int counter = 0;

@@ -67,10 +67,7 @@ namespace InformerLib
                 return;
             }
 
-            Authed[CurrentClient.ClientId] =
-                new InformerClient(
-                    CurrentClient,
-                    CurrentClient.GetClientProxy<IInformerClient>());
+            Authed[CurrentClient.ClientId] = new InformerClient( CurrentClient, CurrentClient.GetClientProxy<IInformerClient>());
 
             CurrentClient.Disconnected += ClientDisconnected;
             Log.Info("InformerService: Client connected...");
