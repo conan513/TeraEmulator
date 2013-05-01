@@ -439,3 +439,10 @@ System.NullReferenceException: Object reference not set to an instance of an obj
    at Communication.Logic.PlayerLogic.PlayerEndGame(Player player)
    at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0()
    at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
+20:07:06.6406 | DelayedAction Ex:
+EXCEPTION OCCURRED
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tera.Services.MapService.PlayerLeaveWorld(Player player) in c:\Users\Julian\Documents\GitHub\TeraEmulator\Tera\Services\MapService.cs:line 472
+   at Communication.Logic.PlayerLogic.PlayerEndGame(Player player)
+   at Communication.Logic.AccountLogic.<>c__DisplayClass1.<ClientDisconnected>b__0()
+   at Utils.DelayedAction.Check() in c:\Users\Julian\Documents\GitHub\TeraEmulator\Utils\DelayedAction.cs:line 54
